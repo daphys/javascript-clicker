@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(226, 56, 56);
+  color: white;
+}
+.a {
+  margin: 50px;
+}
+#but {
+  cursor: pointer;
+  border: solid black 1px;
+  border-radius: 1px 1px 12px 12px;
+  background-color: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 50px;
+}
+#but2 {
+  cursor: pointer;
+  border: solid black 1px;
+  border-radius: 12px 12px 1px 1px;
+  background-color: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
+  width: 220px;
+  height: 30px;
+  position: relative;
+  bottom: 0;
+}
+.mainContainer {
+  align-items: center;
+  text-align: center;
+}
+.shopContainer {
+  margin: 1px auto;
+  justify-self: center;
+  padding: 30px;
+  max-width: 58%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+#img {
+  object-fit: cover;
+  width: 200px;
+  height: 150px;
+  align-items: center;
+  margin: 0 auto;
+}
+.b {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  border: 0;
+  border-radius: 30px;
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.shopItem {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  border: solid;
+  border-radius: 19px;
+}
